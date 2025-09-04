@@ -22,11 +22,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gpt18&layout=compact&hide=php,c,html,roff&langs_count=10" alt="gpt18" />
 </p>
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=gpt18&show_icons=true" alt="gpt18" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=gpt18&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="gpt18" />
 </p>
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=gpt18&layout=compact" />
-</p>
+</p> -->
 
 <h2 align="center">Connect with me</h2>
 <div align="center">  
