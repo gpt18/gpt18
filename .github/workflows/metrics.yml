@@ -1,0 +1,31 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "45 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: readme-main
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: gpt18
+          filename: metrics.svg
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
+          config_display: large
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, scss
+          plugin_languages_limit: 8
+          committer_message: "chore: update metrics"
