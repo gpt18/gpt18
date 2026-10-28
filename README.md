@@ -37,6 +37,8 @@
 ### Recent activity
 
 <!--START_SECTION:activity-->
+1. ❗ Opened issue [#1643](https://github.com/mongodb-js/mongodb-mcp-server/issues/1643) in [mongodb-js/mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server)
+2. ❗ Opened issue [#104714](https://github.com/anthropics/claude-code/issues/104714) in [anthropics/claude-code](https://github.com/anthropics/claude-code)
 <!--END_SECTION:activity-->
 
 ### Stats
